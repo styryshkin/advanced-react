@@ -4,7 +4,10 @@
   "description": "Online Store. An example React, GraphQL, Next and Apollo",
   "main": "index.js",
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -17,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "next": "^7.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
