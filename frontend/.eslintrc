@@ -16,6 +16,14 @@
     "jest": true
   },
   "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "aspects": ["invalidHref"]
+      }
+    ],
+    "import/prefer-default-export": 0,
     "prefer-const": [
       "error",
       {
@@ -23,6 +31,7 @@
       }
     ],
     "prettier/prettier": "error",
+    "react/require-default-props": 0,
     "react/jsx-filename-extension": [
       1,
       {
