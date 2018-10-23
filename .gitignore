@@ -13,6 +13,9 @@ build/
 # next
 .next/
 
+#dotenv
+.env
+
 # misc
 .DS_Store
 .env.local
