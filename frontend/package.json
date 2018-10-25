@@ -21,10 +21,14 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.1.17",
+    "apollo-client": "^2.4.3",
     "next": "^7.0.2",
+    "next-with-apollo": "^3.2.1",
     "nprogress": "^0.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
+    "react-apollo": "^2.2.4",
     "react-dom": "^16.5.2",
     "styled-components": "^4.0.2"
   }
